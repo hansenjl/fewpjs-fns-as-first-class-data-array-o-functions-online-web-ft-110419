@@ -4,7 +4,22 @@ function wakeDog(dogName, dogBreed){
 }
 
 function leashDog(dogName, dogBreed){
-  let string = `Leash ${dogName} to ${dogBreed}`
+  let string = `Leash ${dogName} the ${dogBreed}`
+  console.log(string)
+}
+
+function unleashDog(dogName, dogBreed){
+  let string = `Unleash ${dogName} the ${dogBreed}`
+  console.log(string)
+}
+
+function walkToPark(dogName, dogBreed){
+  let string = `Walk ${dogName} the ${dogBreed} to the park`
+  console.log(string)
+}
+
+function throwFrisbee(dogName, dogBreed){
+  let string = `Throw the frisbee with ${dogName} the ${dogBreed}`
   console.log(string)
 }
 
