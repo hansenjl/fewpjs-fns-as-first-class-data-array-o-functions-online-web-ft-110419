@@ -37,7 +37,7 @@ function walkHome(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  let strings = routine.map(fn => fn())
+  let strings = routine.map(fn => fn(dogName, dogBreed))
   return strings
 }
 
