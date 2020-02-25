@@ -23,4 +23,9 @@ function throwFrisbee(dogName, dogBreed){
   console.log(string)
 }
 
+function walkHome(dogName, dogBreed){
+  let string = `Walk ${dogName} the ${dogBreed} home`
+  console.log(string)
+}
+
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
