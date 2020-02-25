@@ -29,7 +29,7 @@ function throwFrisbee(dogName, dogBreed){
 }
 
 function walkHome(dogName, dogBreed){
-  let string = `Walk to the park with ${dogName} the ${dogBreed}`
+  let string = `Walk home with ${dogName} the ${dogBreed}`
   console.log(string)
    return string
 }
