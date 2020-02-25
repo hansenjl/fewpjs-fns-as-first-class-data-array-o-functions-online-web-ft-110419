@@ -1,3 +1,5 @@
+let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+
 function wakeDog(dogName, dogBreed){
   let string = `Wake ${dogName} the ${dogBreed}`
   console.log(string)
@@ -35,10 +37,7 @@ function walkHome(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  let strings = routine.map(fn =>
-   fn() 
-  )
+  let strings = routine.map(fn => fn())
   return strings
 }
 
-let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
