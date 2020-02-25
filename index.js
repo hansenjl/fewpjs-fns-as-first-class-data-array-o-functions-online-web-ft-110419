@@ -29,9 +29,7 @@ function walkHome(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  routine.forEach {
-    
-  }
+  routine.forEach()
 }
 
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
