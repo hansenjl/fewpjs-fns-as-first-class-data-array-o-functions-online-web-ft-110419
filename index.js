@@ -17,7 +17,7 @@ function unleashDog(dogName, dogBreed){
 }
 
 function walkToPark(dogName, dogBreed){
-  let string = `Walk ${dogName} the ${dogBreed} to the park`
+  let string = `Walk to the park with ${dogName} the ${dogBreed}`
   console.log(string)
    return string
 }
