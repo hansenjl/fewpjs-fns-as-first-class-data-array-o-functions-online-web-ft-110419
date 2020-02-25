@@ -29,7 +29,7 @@ function walkHome(dogName, dogBreed){
 }
 
 function exerciseDog(dogName, dogBreed){
-  routine.forEach(fn =>
+  routine.map(fn =>
    fn() 
   )
 }
